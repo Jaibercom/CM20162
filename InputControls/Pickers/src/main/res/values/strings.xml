@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ui Pickers</string>
+    <string name="action_settings">Settings</string>
+    <string name="change_the_time_string">Cambie la hora</string>
+    <string name="change_the_date_string">Cambie la fecha</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

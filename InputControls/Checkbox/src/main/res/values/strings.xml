@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Checkboxes</string>
+    <string name="meat">Comida</string>
+    <string name="cheese">queso</string>
+
+    <string name="checkbox_string">This is a checkbox</string>
+    <string name="im_not_checked_string">I\'m not checked</string>
+
+</resources>

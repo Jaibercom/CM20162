@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">AutoComplete</string>
+    <string name="country_string">Country</string>
+    <string name="enter_country_string">Enter your Country here</string>
+
+    <string-array name="countries_array">
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>Antarctica</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Belgium</item>
+        <item>Bolivia</item>
+        <item>Bosnia</item>
+        <item>Bulgaria</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Colombia</item>
+        <item>Congo</item>
+        <item>Costa Rica</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Cyprus</item>
+        <item>Czech Republic</item>
+        <item>Denmark</item>
+        <item>Dominican Republic</item>
+        <item>Ecuador</item>
+        <item>Egypt</item>
+        <item>El Salvador</item>
+        <item>Ethiopia</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>French</item>
+        <item>Germany</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Greece</item>
+        <item>Greenland</item>
+        <item>Guatemala</item>
+        <item>Guinea</item>
+        <item>Haiti</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Ireland</item>
+        <item>Israel</item>
+        <item>Italy</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jordan</item>
+        <item>Kenya</item>
+        <item>Kuwait</item>
+        <item>Libya</item>
+        <item>Malta</item>
+        <item>Mexico</item>
+        <item>Mongolia</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>New Zealand</item>
+        <item>Nicaragua</item>
+        <item>Nigeria</item>
+        <item>North Korea</item>
+        <item>Norway</item>
+        <item>Pakistan</item>
+        <item>Panama</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Puerto Rico</item>
+        <item>Qatar</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>Samoa</item>
+        <item>Saudi Arabia</item>
+        <item>Senegal</item>
+        <item>Singapore</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>Somalia</item>
+        <item>South Africa</item>
+        <item>South Korea</item>
+        <item>Spain</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Syria</item>
+        <item>Taiwan</item>
+        <item>Tajikistan</item>
+        <item>Tanzania</item>
+        <item>Thailand</item>
+        <item>The Bahamas</item>
+        <item>Togo</item>
+        <item>Trinidad and Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Uganda</item>
+        <item>Ukraine</item>
+        <item>United Arab Emirates</item>
+        <item>United Kingdom</item>
+        <item>United States</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan</item>
+        <item>Vatican City</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Yemen</item>
+        <item>Yugoslavia</item>
+        <item>Zimbabwe</item>
+    </string-array>
+
+
+</resources>

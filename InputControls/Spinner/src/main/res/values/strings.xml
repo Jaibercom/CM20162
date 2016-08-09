@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">UI Spinner</string>
+    <string-array name="fruits_array">
+        <item>Manzana</item>
+        <item>Pera</item>
+        <item>Uva</item>
+        <item>Naranja</item>
+        <item>Mandarina</item>
+        <item>Mango</item>
+    </string-array>
+
+
+</resources>
