@@ -50,4 +50,6 @@ public class MainActivity extends AppCompatActivity {
         personList.add(new Person("Alice", "40 años", R.drawable.person5));
         personList.add(new Person("Peter", "21 años", R.drawable.person6));
     }
+
+
 }
