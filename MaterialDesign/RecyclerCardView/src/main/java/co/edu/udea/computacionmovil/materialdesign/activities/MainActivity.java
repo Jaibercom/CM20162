@@ -15,7 +15,7 @@ import co.edu.udea.computacionmovil.materialdesign.R;
 
 public class MainActivity extends AppCompatActivity {
 
-    private RecyclerView rvContent;
+    private RecyclerView mRecyclerView;
     private List<Person> personList;
 
     @Override
@@ -25,16 +25,19 @@ public class MainActivity extends AppCompatActivity {
 
         initializeDataPersons();
 
-        rvContent = (RecyclerView) findViewById(R.id.rv_content);
+        mRecyclerView = (RecyclerView) findViewById(R.id.rv_content);
 
+        // use this setting to improve performance if you know that changes
+        // in content do not change the layout size of the RecyclerView
+        mRecyclerView.setHasFixedSize(true);
+
+        // use a linear layout manager
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getApplicationContext());
-        rvContent.setLayoutManager(linearLayoutManager);
+        mRecyclerView.setLayoutManager(linearLayoutManager);
 
-        //Se crea el adaptador y se pasa la lista
+        //specify an adapter
         AdapterRecyclerView adapter = new AdapterRecyclerView(personList);
-        rvContent.setAdapter(adapter);
-
-
+        mRecyclerView.setAdapter(adapter);
     }
 
     //Se crea una lista de personas

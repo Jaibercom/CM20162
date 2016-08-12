@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MaterialDesign</string>
+    <string name="app_name">Recycler View</string>
     <string name="card_name">Nombre</string>
     <string name="card_age">Edad</string>
 </resources>

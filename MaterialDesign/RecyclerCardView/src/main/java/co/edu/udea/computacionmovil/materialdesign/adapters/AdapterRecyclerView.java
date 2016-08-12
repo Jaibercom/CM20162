@@ -20,25 +20,32 @@ public class AdapterRecyclerView extends RecyclerView.Adapter<AdapterRecyclerVie
 
     List<Person> persons;
 
+    // Provide a suitable constructor (depends on the kind of dataset)
     public AdapterRecyclerView(List<Person> persons) {
         this.persons = persons;
     }
 
-    //Métodos que se deben implementar en un RecyclerView
+    // Create new views (invoked by the layout manager)
     @Override
     public PersonViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_person,parent,false);
+        // create a new view
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_person, parent, false);
         PersonViewHolder pvh = new PersonViewHolder(view);
         return pvh;
     }
 
+    // Replace the contents of a view (invoked by the layout manager)
     @Override
     public void onBindViewHolder(PersonViewHolder holder, int pos) {
+
+        // - get element from your dataset at this position
+        // - replace the contents of the view with that element
         holder.personName.setText(persons.get(pos).getName());
         holder.personAge.setText(persons.get(pos).getAge());
         holder.personPhoto.setImageResource(persons.get(pos).getPhotoId());
     }
 
+    // Return the size of your dataset (invoked by the layout manager)
     @Override
     public int getItemCount() {
         return persons.size();
@@ -47,10 +54,10 @@ public class AdapterRecyclerView extends RecyclerView.Adapter<AdapterRecyclerVie
 
     //Clase necesaria para la implementación del RecyclerView
     public static class PersonViewHolder extends RecyclerView.ViewHolder{
-        CardView cardView;
-        TextView personName;
-        TextView personAge;
-        ImageView personPhoto;
+        public CardView cardView;
+        public TextView personName;
+        public TextView personAge;
+        public ImageView personPhoto;
 
         PersonViewHolder(View itemView) {
             super(itemView);
