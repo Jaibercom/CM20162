@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Fragment Dynamic</string>
+    <string name="fragmentA">Fragment A!</string>
+    <string name="fragmentB">Fragment B!</string>
+</resources>
