@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Layouts.iml" filepath="$PROJECT_DIR$/Layouts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linear/Linear.iml" filepath="$PROJECT_DIR$/Linear/Linear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListView/ListView.iml" filepath="$PROJECT_DIR$/ListView/ListView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Relative/Relative.iml" filepath="$PROJECT_DIR$/Relative/Relative.iml" />
+    </modules>
+  </component>
+</project>
