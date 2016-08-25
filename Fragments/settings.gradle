@@ -1,1 +1,1 @@
-include ':Static', ':Dynamic', ':Details'
+include ':Static', ':Dynamic', ':Details', ':List'
