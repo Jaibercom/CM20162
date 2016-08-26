@@ -1,8 +1,11 @@
+# Created by https://www.gitignore.io/api/android
+
+### Android ###
 # Built application files
 *.apk
 *.ap_
 
-# Files for the ART/Dalvik VM
+# Files for the Dalvik VM
 *.dex
 
 # Java class files
@@ -34,7 +37,19 @@ captures/
 
 # Intellij
 *.iml
-.idea/workspace.xml
 
-# Keystore files
-*.jks
+### Android Patch ###
+gen-external-apklibs
+
+# Android Studio
+.idea/
+.gradle
+/*/local.properties
+/*/out
+/*/*/build
+/*/*/production
+*.iml
+*.iws
+*.ipr
+*~
+*.swp
