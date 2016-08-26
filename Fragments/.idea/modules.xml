@@ -5,7 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Details/Details.iml" filepath="$PROJECT_DIR$/Details/Details.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dynamic/Dynamic.iml" filepath="$PROJECT_DIR$/Dynamic/Dynamic.iml" />
       <module fileurl="file://$PROJECT_DIR$/Fragments.iml" filepath="$PROJECT_DIR$/Fragments.iml" />
-      <module fileurl="file://$PROJECT_DIR$/List/listfragment.iml" filepath="$PROJECT_DIR$/List/listfragment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/List/List.iml" filepath="$PROJECT_DIR$/List/List.iml" />
       <module fileurl="file://$PROJECT_DIR$/Static/Static.iml" filepath="$PROJECT_DIR$/Static/Static.iml" />
     </modules>
   </component>
