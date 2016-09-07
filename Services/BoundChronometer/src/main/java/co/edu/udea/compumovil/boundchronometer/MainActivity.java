@@ -27,8 +27,7 @@ public class MainActivity extends AppCompatActivity {
         timestampText = (TextView) findViewById(R.id.textView_timestamp);
         timestampText.setText(00 + ":" + 00 + ":" + 00 + ":" + 000);
 
-        intent = new Intent(MainActivity.this,
-                BoundService.class);
+        intent = new Intent(MainActivity.this, BoundService.class);
 
     }
 

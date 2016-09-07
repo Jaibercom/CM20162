@@ -11,6 +11,7 @@ public class MyService extends Service {
     private final String TAG = "MyService";
     private final int seconds = 1;
     private Counter thread;
+    private int currentId;
 
     public MyService() {
     }
@@ -32,10 +33,10 @@ public class MyService extends Service {
         Toast.makeText(this, "Service Started", Toast.LENGTH_SHORT).show();
         Log.v(TAG, "onStartCommand");
 
-        final int currentId = startId;
+        currentId = startId;
         Log.d(TAG, "Service started");
 
-        thread = new Counter(20);
+        thread = new Counter(100, currentId);
         thread.start();
 
         // If we get killed, after returning from here, restart
@@ -46,8 +47,9 @@ public class MyService extends Service {
     public void onDestroy() {
         super.onDestroy();
         thread.setFlag(false);
-        Toast.makeText(this, "Service Destroyed", Toast.LENGTH_LONG).show();
-        Log.v(TAG, "onDestroy");
+        Toast.makeText(this, "Service Destroyed ID:"+ currentId, Toast.LENGTH_LONG).show();
+        //Log.v(TAG, "onDestroy");
+        Log.v(TAG, "Service Destroyed ID:"+ currentId);
     }
 
 }

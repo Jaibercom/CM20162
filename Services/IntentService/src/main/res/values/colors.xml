@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="window_background">@android:color/white</color>
+    <color name="PanelColor">#00BBD2</color>
+
+    <color name="blueFlatShadow">#07A4B5</color>
+    <color name="yellowFlatShadow">#DFB43F</color>
+
+</resources>

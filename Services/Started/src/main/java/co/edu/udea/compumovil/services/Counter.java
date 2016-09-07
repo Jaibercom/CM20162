@@ -9,6 +9,7 @@ public class Counter extends Thread {
 
     private int seconds;
     private Boolean flag;
+    private int id;
 
     public Boolean getFlag() {
         return flag;
@@ -30,6 +31,12 @@ public class Counter extends Thread {
         flag = true;
     }
 
+    public Counter(int _seconds, int _id) {
+        seconds = _seconds;
+        flag = true;
+        id = _id;
+    }
+
     @Override
     public void run() {
 
@@ -46,7 +53,7 @@ public class Counter extends Thread {
                         }
                     }
                 }
-                Log.d(TAG, "counter: " + (i + 1));
+                Log.d(TAG, "ID: "+id + " counter: " + (i + 1));
             }
         }
     }

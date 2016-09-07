@@ -5,17 +5,24 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
     private final String TAG = "MyService";
     private Intent intent;
+    private Button startService;
+    private Button stopService;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        intent = new Intent(getBaseContext(), MyService.class);
+
+        startService = (Button) findViewById(R.id.btnStartService);
+        stopService = (Button) findViewById(R.id.btnStopService);
+
+        stopService.setEnabled(false);
     }
 
     public void onClick(View view) {
@@ -24,12 +31,19 @@ public class MainActivity extends AppCompatActivity {
 
             case R.id.btnStartService:
                 Log.v(TAG, "Start button");
+                intent = new Intent(this, MyService.class);
                 startService(intent);
+
+                startService.setEnabled(false);
+                stopService.setEnabled(true);
                 break;
 
             case R.id.btnStopService:
                 Log.v(TAG, "Stop button");
                 stopService(intent);
+
+                startService.setEnabled(true);
+                stopService.setEnabled(false);
                 break;
         }
     }
