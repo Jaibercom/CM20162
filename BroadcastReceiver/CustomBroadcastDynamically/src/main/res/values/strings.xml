@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Custom Broadcast Dynamically</string>
+    <string name="broadcast_intent_string">Send broadcast</string>
+</resources>

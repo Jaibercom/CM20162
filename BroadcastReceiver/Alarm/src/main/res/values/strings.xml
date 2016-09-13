@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Alarm</string>
+    <string name="seconds">Number of seconds</string>
+    <string name="buttonText">Start Counter</string>
+
+    <string-array name="seconds">
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2 </item>
+        <item>1</item>
+    </string-array>
+</resources>

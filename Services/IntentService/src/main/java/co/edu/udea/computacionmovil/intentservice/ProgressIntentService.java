@@ -51,11 +51,6 @@ public class ProgressIntentService extends IntentService {
                 builder.setProgress(10, i, false);
                 startForeground(1, builder.build());
 
-                Intent localIntent = new Intent(Constants.ACTION_RUN_ISERVICE)
-                        .putExtra(Constants.EXTRA_PROGRESS, i);
-
-                // Emisión de {@code localIntent}
-                //LocalBroadcastManager.getInstance(this).sendBroadcast(localIntent);
 
                 // Retardo de 1 segundo en la iteración
                 Thread.sleep(1000);
