@@ -18,9 +18,7 @@ public class SMSReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
 
-
         Log.d(TAG, "onReceive");
-
 
         Bundle bundle = intent.getExtras();
         SmsMessage[] msgs = null;
@@ -28,7 +26,6 @@ public class SMSReceiver extends BroadcastReceiver {
         String address = "";
 
         if (bundle != null) {
-
             //--retrieve the SMS message received--
             Object[] pdus = (Object[]) bundle.get("pdus");
             msgs = new SmsMessage[pdus.length];

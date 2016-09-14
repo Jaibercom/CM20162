@@ -7,7 +7,7 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String CUSTOM_INTENT = "co.edu.udea.compumovil.custombroadcast";
+    private static final String ACTION_CUSTOM = "co.edu.udea.compumovil.custombroadcast.action.CUSTOM";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     public void onClick(View v) {
 
         Intent intent = new Intent();
-        intent.setAction(CUSTOM_INTENT);
-        sendBroadcast(intent, android.Manifest.permission.VIBRATE);
+        intent.setAction(ACTION_CUSTOM);
+        sendBroadcast(intent);
     }
 }

@@ -16,11 +16,9 @@ public class MyReceiver extends BroadcastReceiver {
 
         Log.d(TAG, "INTENT RECEIVED");
 
-        Vibrator v = (Vibrator) context
-                .getSystemService(Context.VIBRATOR_SERVICE);
+        Vibrator v = (Vibrator) context.getSystemService(Context.VIBRATOR_SERVICE);
         v.vibrate(500);
 
         Toast.makeText(context, "INTENT RECEIVED by Receiver", Toast.LENGTH_LONG).show();
-
     }
 }

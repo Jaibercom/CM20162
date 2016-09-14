@@ -23,7 +23,7 @@
             android:enabled="true"
             android:exported="false">
             <intent-filter>
-                <action android:name="co.edu.udea.compumovil.custombroadcast" />
+                <action android:name="co.edu.udea.compumovil.custombroadcast.action.CUSTOM" />
             </intent-filter>
         </receiver>
 

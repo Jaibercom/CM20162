@@ -9,9 +9,8 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String CUSTOM_INTENT = "co.edu.udea.compumovil.custombroadcast.show_toast";
-    private final IntentFilter intentFilter = new IntentFilter(CUSTOM_INTENT);
-    private final MyReceiver myReceiver = new MyReceiver();
+    private static final String ACTION_CUSTOM = "co.edu.udea.compumovil.custombroadcast.action.CUSTOM";
+    private MyReceiver myReceiver;
     private LocalBroadcastManager mBroadcastManager;
 
     @Override
@@ -19,14 +18,24 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Creating the receiver
+        myReceiver = new MyReceiver();
+
+        //Creating the filter
+        IntentFilter filter = new IntentFilter();
+        filter.addAction(ACTION_CUSTOM);
+
+        //Registering the receiver
         mBroadcastManager = LocalBroadcastManager.getInstance(getApplicationContext());
-        mBroadcastManager.registerReceiver(myReceiver, intentFilter);
+        mBroadcastManager.registerReceiver(myReceiver, filter);
 
     }
 
     public void onClick(View v) {
 
-        mBroadcastManager.sendBroadcast(new Intent(CUSTOM_INTENT));
+        Intent intent = new Intent();
+        intent.setAction(ACTION_CUSTOM);
+        mBroadcastManager.sendBroadcast(intent);
     }
 
     @Override
