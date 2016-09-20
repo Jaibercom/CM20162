@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Http URL Connection</string>
+    <string name="load_JSON_data_string">Load JSON Data</string>
+    <string name="load_XML_data_string">Load XML Data</string>
+</resources>

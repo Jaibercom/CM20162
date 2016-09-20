@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Volley</string>
+    <string name="load_JSON_data_string">Load Data</string>
+</resources>
