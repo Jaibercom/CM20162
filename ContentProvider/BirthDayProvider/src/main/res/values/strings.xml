@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BirthDay Provider</string>
+    <string name="birthday">Birthday</string>
+    <string name="name">Name</string>
+    <string name="add">Add new</string>
+    <string name="show">Show all</string>
+    <string name="delete">Delete all</string>
+
+</resources>
