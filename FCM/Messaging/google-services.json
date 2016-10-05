@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "162144002625",
+    "firebase_url": "https://messaging-44cf5.firebaseio.com",
+    "project_id": "messaging-44cf5",
+    "storage_bucket": "messaging-44cf5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162144002625:android:2be7c6c9222e7e93",
+        "android_client_info": {
+          "package_name": "co.edu.udea.computacionmovil.fcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "162144002625-iebg4orcpkp4hr3jeg9utn9r3f5km9ol.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtMtqb3-GQ_pmsIKo3L5ni4C3ftOvDL5Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
